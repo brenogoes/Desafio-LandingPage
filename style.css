@@ -1,0 +1,116 @@
+*{
+margin: 0%;
+font-family: "inter";
+
+}
+
+#MenuSuperior{
+    background-color:#303030 ;
+    color: white;
+}
+#TituloMenuSuperior{
+    padding-top: 75px;
+    font-size: 55px;
+    margin-left: 100px;
+}
+#TextoMenuSuperior{
+     margin-left: 100px;
+     margin-top: 10px;
+     padding-bottom: 70px;
+     font-size: 20px;
+
+}
+
+#MenuInformativo{
+    background-color:#F9F9F9 ;
+    padding: 50px;  
+}
+#DivNumerosInformativos{
+   display: grid;
+   grid-auto-flow: column;
+   margin-left: 50px;
+   color: rgb(0, 0, 0);
+    font-size: 15px;
+    
+}
+#DivTextosInformativos{
+    display: grid;
+    grid-auto-flow: column;
+    margin-left: 50px;
+    font-size: 17px;
+}
+#numero2{
+    margin-left: 120px;
+}
+#numero3{
+    margin-left: 145px;
+}
+
+#Secaofoto{
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+    padding: 50px; 
+
+}
+#TituloFoto{
+    color: #000000 ;
+    font-size: 50px;
+    margin-left: 0px;
+    margin-top: 200px;
+}
+#Texto{
+    color: #000000;
+    font-size: 30px;
+    margin-left: 30px;
+}
+#FotoCasa{
+    margin:  50px 50px 50px 100px;
+}
+
+#Formulario{
+    text-align: center;
+    background-color: #303030;
+}
+#TituloFormulario{
+    padding: 50px;
+    font-size: 32px;
+    color: #ffffff;
+}
+input{
+    width:508px;
+    Height:72px;
+    background-color:#EAECE5;
+    margin: 25px;
+    border: 0px;
+    border-radius: 10px;
+    padding-left: 25px;
+    font-size: 20px;
+}
+button{
+    width:286px;
+    Height:74px;
+    background-color: #C07212;
+    margin: 70px 0px 80px 0px;
+    border: 0px;
+    border-radius: 10px;
+    font-size: 30px;
+    color: #ffffff;
+    font-weight: bolder;
+    cursor: pointer;
+}
+button:hover{
+     background-color:#be761d ;
+     color: #ffffff;
+     transform: translateY(-7px);
+     box-shadow: 0px 15px 20px #442908c7;
+     transition-duration: 1s;
+
+}
+
+
+
+
+
+
+
